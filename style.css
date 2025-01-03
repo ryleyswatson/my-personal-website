@@ -1,7 +1,13 @@
-h1{
-    background-color: blue;
+body{
+   margin: 0;
+   height: 100vh;
+    background-image: url('https://th.bing.com/th/id/R.e6817bd64cb37a0cd1d93f7ef3909216?rik=UQxDBgm5mBNVeA&riu=http%3a%2f%2fncaahistoryguide.com%2ffiles%2f2016%2f11%2fCrested-Butte_ParadiseDivide.jpg&ehk=LJPSNVFt1qZC7xm2d0TBEzdPLy%2fqrTuQQJBiplGmj68%3d&risl=&pid=ImgRaw&r=0t');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    font-family:Arial, sans-serif;
     text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: 200px;
+    margin-top: 500px;
+    
 }
+
