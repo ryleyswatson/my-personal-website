@@ -1,3 +1,13 @@
-const h2 = document.createElement("h2")
-h2.textContent="This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+document.addEventListener("DOMContentLoaded", function() {
+    const form = document.getElementById('contact-form');
+    const thankYouMessage = document.getElementById('thank-you-message');
+
+    form.addEventListener('submit', function() {
+        alert('Thank you for your interest in visiting Crested Butte!') 
+        
+        
+        form.style.display = 'none';
+        thankYouMessage.style.display = 'block';
+    });
+});
+
